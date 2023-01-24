@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Balloons';
+    src: url('fonts/HappyBirthday.ttf');
+}
+
+@font-face {
+    font-family: 'Valentine';
+    src: url('fonts/Valentine_Cute.ttf');
+}
+
+@font-face {
+    font-family: 'Radita';
+    src: url('fonts/RADITA.ttf');
+}
+
+body {
+    font-family: 'Valentine';
+    text-align: center;
+    /* background-color: #EFB0C9; */
+    background: linear-gradient(#EFB0C9, rgb(240, 196, 23));
+}
+
+h1 {
+    font-family: 'Radita';
+    /* font-family: 'Balloons'; */
+    font-size: 80px;
+    color: rgb(171, 44, 65);
+    /* background-color: black; */
+    text-shadow: 5px 8px 3px rgb(129, 224, 107); 
+}
+
+.avatar {
+    height: 300px;
+    border-radius: 50%;
+    border: solid rgb(171, 44, 65) 15px;
+}
+
+#bday-age, #bday-date {
+    color: white;
+    /* text-shadow: 5px 8px 3px rgb(67, 121, 213); */
+    background-color: rgb(236, 203, 243);
+    text-shadow: 5px 5px 2px rgb(126, 30, 215);;
+    padding: 0px 40px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    /* margin: 0; */
+}
+
+#bday-date {
+    margin-top: 5px;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-text, .hover-message {
+    color: aliceblue;
+    text-shadow: 5px 5px 2px rgb(126, 30, 215);
+
+}
+
+.hover-message {
+    margin-top: 10px;
+}
+
+.sub-text {
+    margin-bottom: 0;
+}
+
+.gift-section {
+    margin-top: 25px;;
+}
+
+.gift-img, #gift-img2, #gift-img3 {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url('images/gift.gif');
+    background-position: center;
+    border: solid white 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#footer {
+    padding: 0 20px;
+    /* margin-bottom: 30px; */
+    width: 400px;
+    margin: 0 auto 40px;
+}
+
+#footer a {
+    color: white;
+    text-shadow: 5px 5px 5px #260942;
+}
+
+#gift-img1:hover {
+    background-image: url('images/crown.gif');
+    background-size: cover;
+}
+
+#gift-img2:hover {
+    background-image: url('images/money_sea.gif');
+    background-size: cover;
+}
+
+#gift-img3:hover {
+    background-image: url('images/champagne.gif');
+    background-size: cover;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(images/cheers.gif);
+    background-size: cover;
+}
+
+/* display: flex;
+   flex-direction: row;
+   justify-content: start; (justify content = main axis,
+   aligns itens on horizontal axis (as row is horizontal:
+   
+   - start, center or end or 
+   space-around (space is between items and before first item and after last item), 
+   space-evenly (space distributed evenly) 
+   and space-between (space only between the items/elements))
+
+
+   align-items: center; (aligns items on the vertical axis 
+   (cross axis which is vertical when flex-direction is row)
+    - start, center or end) 
+   if items are stretching down too much, look at align-items 
+   
+   -----Overall-----
+   justify-content is for main axis
+   align items is for cross (perpendicular) axis
+   */
